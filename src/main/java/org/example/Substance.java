@@ -1,7 +1,5 @@
 package org.example;
 
-import org.hibernate.annotations.ColumnTransformer;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
