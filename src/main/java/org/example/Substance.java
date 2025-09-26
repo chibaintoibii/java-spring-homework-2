@@ -27,4 +27,44 @@ public class Substance {
             inverseJoinColumns = @JoinColumn(name = "cause_id")
     )
     private List<Cause> causes = new ArrayList<Cause>();
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getMeasurement_unit() {
+        return measurement_unit;
+    }
+
+    public void setMeasurement_unit(String measurement_unit) {
+        this.measurement_unit = measurement_unit;
+    }
+
+    public List<Cause> getCauses() {
+        return causes;
+    }
+
+    public void setCauses(List<Cause> causes) {
+        this.causes = causes;
+    }
 }
